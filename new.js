@@ -10,7 +10,7 @@ document.querySelector('.lclear').addEventListener('click', () => {
     const result = window.confirm("Are you sure you want to wipe all records?");
     if (result) {
          dicT.clearData()
-         alert('All Record has been wiped out')
+         alert('All Records have been wiped out')
     } else {
         alert('Request has been cancled to wipe data')
         
@@ -45,7 +45,7 @@ const dicT = {
 
         //console.log(value.item, value.price);
         tot += Number(value.price)
-        html +=  `<div>${value.item} Testing </div>
+        html +=  `<div>${value.item}</div>
             <div>${value.price}Rs.</div>
             <div>${value.date}</div>
             <button class="wipe-record" onclick="ob.splice(${index}, 1);dicT.renderData()" data-id="${index}">Delete</button>`
