@@ -48,3 +48,16 @@ body {
     padding-bottom: 10px;
     padding-right: 115px;
 }
+
+/* Media Query for screens smaller than 768 px */
+@media (max-width: 768px) {
+    .cs-todo {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+    }
+
+    .box-input,
+    .box-date {
+        padding: 10px;
+    }
+}
