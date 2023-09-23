@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+    color:rgb(240, 240, 240);
+    background-color:rgb(83, 80, 123);
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.cs-todo {
+   display: grid;
+   grid-template-columns: 200px 150px 100px 150px;
+   column-gap: 10px;
+   row-gap: 10px;
+   align-items: center;
+
+}
+.cbut {
+    border: none;
+    background-color: rgb(55, 38, 172);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+.issub {
+    background-color: rgb(240, 240, 240);
+    color: black;
+}
+
+.box-input {
+    font-size: 15px;
+    /*text-align: center; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 55px;
+}
+
+.box-date {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 115px;
+}
