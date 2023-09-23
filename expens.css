@@ -50,7 +50,7 @@ body {
 }
 
 /* Media Query for screens smaller than 768 px */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .cs-todo {
         grid-template-columns: 1fr;
         column-gap: 0;
@@ -60,4 +60,4 @@ body {
     .box-date {
         padding: 10px;
     }
-}
+}*/
