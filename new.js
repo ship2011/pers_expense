@@ -51,7 +51,7 @@ const dicT = {
             <button class="wipe-record" onclick="ob.splice(${index}, 1);dicT.renderData()" data-id="${index}">Delete</button>`
                     
     })
-    total.innerHTML = tot;
+    total.innerHTML = `Total Expense :${tot}`;
     record.innerHTML = html;
     localStorage.setItem('obj', JSON.stringify(ob))
     html = ''
