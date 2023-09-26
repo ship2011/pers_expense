@@ -43,6 +43,7 @@ body {
     color: white;
     cursor: pointer;
     font-weight: bold;
+    margin-right: 5px;
 }
 
 .box-input {
