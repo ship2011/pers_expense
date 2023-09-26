@@ -48,7 +48,7 @@ const dicT = {
         html +=  `<div>${value.item}</div>
             <div>${value.price}Rs.</div>
             <div>${value.date}</div>
-            <button class="wipe-record" onclick="ob.splice(${index}, 1);dicT.renderData()" data-id="${index}">Delete</button>`
+            <button class="wipe-record delb" onclick="ob.splice(${index}, 1);dicT.renderData()" data-id="${index}">Delete</button>`
                     
     })
     total.innerHTML = `Total Expense :${tot}`;
