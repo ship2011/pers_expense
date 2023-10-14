@@ -41,6 +41,11 @@ const dicT = {
     let total = document.querySelector('.total');
     const record = document.querySelector('.js-list');
     let tot = 0;
+    //Sort Function
+    ob.sort(function (a, b) {
+        return new Date(b.date) - new Date(a.date);
+    });
+    //end here
     ob.forEach((value, index) => {
 
         //console.log(value.item, value.price);
